@@ -1,3 +1,4 @@
+henkoukakunin
 const ichi2sitei = document.getElementById('ichisitei');
 
 let isPageLoaded = false;
