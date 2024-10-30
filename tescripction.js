@@ -1,4 +1,3 @@
-henkoukakunin
 const ichi2sitei = document.getElementById('ichisitei');
 
 let isPageLoaded = false;
@@ -24,7 +23,7 @@ showFirst.classList.remove("kakushitei");
 async function main() {
     if (isPageLoaded) {
         console.log('ループを停止しました');
-        return; // フラグがtrueなら、ループを停止
+        return; // フラグがtrueなら、ループを停止　変更確認用文
     }
 
 ichi2sitei.insertAdjacentHTML('beforebegin', '<p class="kakushitei"><ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-5005673256143644" data-ad-slot="2662431207" data-ad-format="auto" data-full-width-responsive="true"><!-- --></ins></p>');
